@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/banner01.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/images.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -50,7 +50,7 @@
     width: 100%;
 }
 .text-box{
-    width: 100%;
+    width: 90%;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -70,7 +70,7 @@
    color: #fff;
 }
 .hero-btn{
-    margin-top: 0px;
+    margin-top: 10px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -353,33 +353,54 @@ h3{
 
 /* -------------About Page Styling---------- */
 .about{
-    min-height: 400px;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/banner01.jpg);
+    min-height: 100px;
+    /* width: 100%; */
+    background-image: url(images/cafeteria.jpg);
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
     position: relative;
+}
+.about nav img{
+    width: 130px;
+
 }
 .discr{
     width: 80%;
     margin: auto;
     /* text-align: center; */
     padding-top: 100px;
+    padding-bottom: 5%;
 }
 .text-area{
+    flex-basis: 46%;
     text-align: left;
-    padding-right: 10px;
-    /* margin-top: 100px;
-    margin-bottom: 40px; */
+    padding-bottom: 30px;
+
 }
 .text-area h2{
     font-size: 40px;
 }
 .text-area p{
     padding: 0;
+    margin: 10px 0;
+    padding-bottom: 5px;
 }
-.row img{
-    border-radius: 20px;
-    /* width: 200%; */
-    /* height: auto; */
+.hero-bt{
+    margin-top: 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #f44336;
+    border: 1px solid #f44336;
+    padding: 12px 34px;
+    font-size: 12px;
+    background-color: transparent;
+    position: relative;
+    border-radius: 10px;
+}
+.hero-bt
+:hover{
+    color: #fff;
+    /* border: 1px solid #f44336; */
+    background: #f44336;
+    transition: 1s;
 }
